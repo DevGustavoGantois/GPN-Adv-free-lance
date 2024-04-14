@@ -655,7 +655,7 @@ p {
     }
 
     .map {
-        width: 90%;
+        width: 65%;
     }
 
     .footer-contact {
@@ -671,5 +671,12 @@ p {
         display: none;
     }
 
+    .social-medias {
+        gap: 5px;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
    
 }   
