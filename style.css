@@ -1,0 +1,675 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Exo", sans-serif;
+    image-rendering: auto;
+   
+}
+
+/*Estilização dos defaults, coisas gerais.*/
+
+body {
+    background-image: url(images/imagemDeFundoBody.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+}
+
+.social-medias {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 25px;
+    
+}
+
+#whatsapp {
+    color: white;
+    padding: 5px;
+    transition: .2s;
+}
+
+#whatsapp:hover {
+    color: rgb(249, 209, 10);
+}
+
+#instagram {
+    color: white;
+    padding: 5px;
+    transition: .2s;
+}
+
+#instagram:hover {
+    color: rgb(249, 209, 10);
+}
+
+#email {
+    color: white;
+    padding: 5px;
+    transition: .2s;
+}
+
+#email:hover {
+    color: rgb(249, 209, 10);
+}
+
+#phone-number-icon {
+    color: white;
+    padding: 5px;
+    transition: .2s;
+}
+
+#phone-number-icon:hover {
+    color: rgb(249, 209, 10);
+}
+
+.copyright {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+/*Criando a nav bar*/
+.navbar {
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+
+    
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 100px;
+    font-weight: 600;
+    margin: 15px;
+}
+
+#nav-item a{
+    color: white;
+}
+
+#nav-item {
+    font-weight: 200;
+    transition: .2s;
+    
+}
+
+#nav-item:hover {
+    font-weight: 700;
+    color: rgb(249, 209, 10);
+}
+
+
+.img_logo {
+    width: 37%;
+}
+
+.first-section {
+    width: 269vh;
+    height: 100vh;
+    background-image:url(images/ImagemFundoHome.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px ;
+    background-repeat: no-repeat;
+}
+
+.atuacoes {
+    margin: 30px;
+    padding: 20px;
+   
+}
+
+.cards-atuacoes {
+    display: flex;
+    gap: 30px;
+}
+
+.card { 
+    border: 2px solid black;
+    padding: 30px;
+    box-shadow: 1px 2px 3px black;
+    border-radius: 20px;
+    transition: 0.5s;
+    
+}
+
+/*Estilizando os ícones*/
+
+#handshake {
+    font-size: 5.5rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    transition: .2s;
+    cursor: pointer;
+
+}
+
+#handshake:hover {
+    color: rgb(249, 209, 10);
+}
+
+#house {
+    font-size: 5.5rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    transition: .2s;
+    cursor: pointer;
+
+}
+
+#house:hover {
+    color: rgb(249, 209, 10);
+}
+
+#user-group {
+    font-size: 5.5rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    transition: .2s;
+    cursor: pointer;
+
+}
+
+#user-group:hover {
+    color: rgb(249, 209, 10);
+}
+
+#target {
+    font-size: 5.5rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#target:hover {
+    color: rgb(249, 209, 10);
+}
+
+h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.sub-sub-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.description {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+}
+/*criando o estilo da página sobre-nos*/
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    font-size:55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img_page_about_us {
+    border-radius: 80px;
+    height: 200vh;
+    margin-top: 400px;
+    padding: 20px;
+    
+}
+
+.title-about-us {
+    padding: 30px;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-mission-and-vision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    
+    font-weight: 500;
+}
+
+.value-us {
+    margin: 30px;
+}
+
+.cards-valores {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5px;
+    width: 85%;
+    text-align: center;
+}
+
+.card-about-us { 
+    border: 2px solid black;
+    padding: 30px;
+    box-shadow: 1px 2px 3px black;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.card-about-us:hover {
+    margin: 9px;
+    background-color: black;
+    color: white;
+}
+
+.description-about-us {
+    font-weight: 500;
+}
+
+/*Sessão nosso time:*/
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 100px;
+}
+
+.sub-title-our-team {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.laywer-team {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.img-leticia-container {
+    display: flex;
+}
+
+.img-leandro-container {
+    display: flex;
+   
+}
+
+.img-vitoria-container {
+    display: flex;
+}
+
+.Leticia {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.Leandro {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.Vitoria {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.Leticia-container {
+    display: flex;    
+}
+
+.Leandro-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Vitoria-container {
+    display: flex;
+}
+
+.container-description {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.img-default {
+    height: 500px;
+    margin: 80px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px 10px 10px;
+    transition: .2s;
+    
+}
+
+.img-default:hover {
+    padding: 10px;
+}
+
+
+.information {
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.sub-sub-title {
+    font-size: 17px;
+}
+
+/* Estilização da página área de atuação. */
+.video_ocupation-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh; /* Cobrindo metade da altura da página */
+    object-fit: cover; /* Para cobrir completamente a área do contêiner */
+    z-index: -1; /* Colocando o vídeo atrás de todo o conteúdo */
+    opacity: 0.5; /* Definindo a opacidade como 50% */
+}
+
+.title-ocupation-area {
+    margin-top:20px;
+    z-index: 2;
+}
+
+.cards-ocupation-area {
+    display: flex;
+    flex-direction: column;
+    margin: 90px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    gap: 30px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.card-ocupation-area {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: transparent;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.card-ocupation-area:hover {
+    color: black;
+    background-color: white;
+}
+
+p {
+    font-weight: 700;
+}
+
+/* Estilizando a área de contatos */
+.contact-us {
+    margin-top: 70px;
+}
+.container-map {
+    text-align: center;
+    margin-top: 250px;
+    
+
+  }
+
+.informations {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 30px; 
+}
+
+#icon-building {
+    color:brown;
+    font-size: 20px;
+}
+
+#icon-map {
+    color: red;
+    font-size: 20px;
+}
+
+#icon-clock {
+    font-size: 20px;
+}
+
+#icon-calendar {
+    color: brown;
+    font-size: 20px;
+}
+
+#icon-phone {
+    color: green;
+    font-size: 20px;
+}
+
+#icon-inbox {
+    color: brown;
+    font-size: 20px;
+}
+
+.footer-contact {
+    margin-top: 500px;
+}
+
+#menu_mobile {
+    display: none;
+}
+
+.laywer-team-two {
+    display: none;
+}
+
+@media screen and (max-width: 1020px) {
+    /* classes gerais */
+    .navbar {
+        display: none;
+    }
+
+    #menu_mobile {
+        display: flex;
+        background-color: black;
+    }
+
+    .nav-bar-mobile {
+        display: flex;
+        gap: 25px;
+        margin: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .social-medias {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    /*Responsividade index.hmtl*/
+
+    .img_logo {
+        margin-top: 80px;
+        width: 20%;
+    }
+
+    .cards-atuacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        flex: wrap;
+    }
+    
+    /*Estilizando o Sobre nós*/
+
+    .img_page_about_us {
+        display: none;    
+    }
+
+    .title-about-us {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .description-mission-and-vision {
+        margin: 20px;
+    }
+
+    .call-to-action {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*Aplicando a responsividade no nosso-time*/
+
+    .title-our-team {
+        font-size: 50px;
+    }
+
+    .laywer-team-two {
+        display: flex;
+        flex-direction: column; /* Organizar os elementos em colunas */
+        align-items: center; /* Centralizar os elementos verticalmente */
+    }
+    
+    .img-default {
+        width: 250px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    
+
+    .Leticia {
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-description {
+        text-align: center;
+        margin: 15px;
+        margin-bottom: 40px;
+    }
+
+    .information {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    /*Responsividade area de atuação*/
+
+    .title-ocupation-area {
+        margin-top: 170px;
+        line-height: 90px;
+        font-size: 50px;
+    }
+
+    .cards-ocupation-area {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 30px;
+    }
+
+    .card-ocupation-area {
+        background-color: rgba(255, 255, 255, 0.614);
+        color: black;
+    }
+
+    /* Responsividade contato */
+
+    .informations {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .container-map {
+        margin: 40px;
+    }
+
+    .map {
+        width: 90%;
+    }
+
+    .footer-contact {
+        background-color: black;
+    }
+
+    .contact-us {
+        margin-top: 140px;
+        font-size: 30px;
+    }
+
+    .laywer-team {
+        display: none;
+    }
+
+   
+}   
