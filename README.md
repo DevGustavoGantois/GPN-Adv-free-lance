@@ -1,10 +1,10 @@
 <h1>Site de Advocacia para a firma GPN Adv</h1>
 <h3>Neste site utilizei cores mais sobreas e neutras para preservar a identidade visual da firma que é o cinza, utilizei também a logo deles. Desenvolvi esse site em várias 5 páginas como o cliente havia pedido. </h3>
 <p>Considerações pessoais: Curti bastante fazer este projeto, pois por ser um projeto grande, consegui treinar muitas skills minhas nas tecnologias HTML, CSS</p>
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 <h3>On this website I used brighter and more neutral colors to preserve the company's visual identity, which is gray, I also used their logo. I developed this website into several 5 pages as the client had requested. </h3>
 <p>Personal considerations: I really enjoyed doing this project, because it was a large project, I was able to train a lot of my skills in HTML and CSS technologies</p>
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![image](https://github.com/DevGustavoGantois/GPN-Adv-free-lance/assets/123424700/29417c16-8423-4981-a049-16af63756389)
 
