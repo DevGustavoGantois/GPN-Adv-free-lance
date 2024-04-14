@@ -1,4 +1,4 @@
-<h3><a href= "https://gpnadv.netlify.app">Veja o site</a></h3>
+<h3><a href= "https://gpnadv.netlify.app" target= "_blank">Veja o site</a></h3>
 
 <h1>Site de Advocacia para a firma GPN Adv</h1>
 <h3>Neste site utilizei cores mais sobreas e neutras para preservar a identidade visual da firma que é o cinza, utilizei também a logo deles. Desenvolvi esse site em várias 5 páginas como o cliente havia pedido. </h3>
